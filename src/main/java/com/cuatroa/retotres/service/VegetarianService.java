@@ -51,9 +51,9 @@ public class VegetarianService {
                     vegetarianDb.get().setCategory(vegetarian.getCategory());
                 }
 
-                if (vegetarian.getMaterial() != null) {
+              /*  if (vegetarian.getMaterial() != null) {
                     vegetarianDb.get().setMaterial(vegetarian.getMaterial());
-                }
+                }*/
 
                 if (vegetarian.getDescription() != null) {
                     vegetarianDb.get().setDescription(vegetarian.getDescription());

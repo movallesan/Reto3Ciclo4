@@ -40,8 +40,8 @@ public class DemoApplication implements CommandLineRunner {
         orderCrudRepository.deleteAll();
 
         crudRepository.saveAll(List.of(
-                new Vegetarian("AP-903", "ACME", "MATERIAL 1", "PRESENTACION 1", "DESCRIPCION DETALLADA", true, 120000, 10, "https://www.avasoluciones.com/uploads/2021/09/910-006127.jpg"),
-                new Vegetarian("AP-904", "ACME", "MATERIAL 2","PRESENTACION 2", "DESCRIPCION DETALLADA",  true, 130000, 10, "https://www.avasoluciones.com/uploads/2021/09/910-007.jpg")
+                new Vegetarian("AP-903", "ACME", "PRESENTACION 1", "DESCRIPCION DETALLADA", true, 120000, 10, "https://www.avasoluciones.com/uploads/2021/09/910-006127.jpg"),
+                new Vegetarian("AP-904", "ACME", "PRESENTACION 2", "DESCRIPCION DETALLADA",  true, 130000, 10, "https://www.avasoluciones.com/uploads/2021/09/910-007.jpg")
         ));
 
         userCrudRepository.saveAll(List.of(
